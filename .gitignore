@@ -1,0 +1,36 @@
+# secrets
+.env
+.env.*
+*.key
+*.secret
+credentials.json
+
+# runtime state
+state.json
+runbook.log
+*.log
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# data (fetch via scripts)
+data/
+*.csv.gz
+charts/
+charts_200/
+charts_v2/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/
+.idea/
+*.swp
